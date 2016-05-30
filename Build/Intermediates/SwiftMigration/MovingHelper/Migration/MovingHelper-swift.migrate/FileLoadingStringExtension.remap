@@ -1,0 +1,8 @@
+[
+ {
+  "file": "/Users/tanuj/Desktop/MovingHelper/MovingHelper/Extensions/FileLoadingStringExtension.swift",
+  "offset": 694,
+  "remove": 18,
+  "text": "(documentsDirectory as NSString)",
+ }
+]

@@ -1,0 +1,8 @@
+[
+ {
+  "file": "/Users/tanuj/Desktop/MovingHelper/MovingHelper/Extensions/SafeDictionaryExtension.swift",
+  "offset": 608,
+  "remove": 1041,
+  "text": "- parameter key:: The key to use to check the dictionary\n  - returns: The found string, or an empty string if it was not found.\n  */\n  public func safeString(key: String) -> String {\n    //Is there a value for the key?\n    if let item: AnyObject = self[key] {\n      //Is that value a string?\n      if let string = item as? String {\n        return string\n      }\n    }\n    \n    //Fall-through case\n    return \"\"\n  }\n  \n  /**\n  Checks a dictionary for a value for a given key, and returns either its\n  integer value or zero.\n  \n  - parameter key:: The key to use to check the dictionary\n  - returns: The found number, or zero if it was not found.\n  */\n  public func safeInt(key: String) -> Int {\n    //Is there a value for the key?\n    if let item: AnyObject = self[key] {\n      if let number = item as? NSNumber {\n        return number.integerValue\n      }\n    }\n    \n    return 0\n  }\n  \n  /**\n  Checks a dictionary for a value for a given key, and returns either its\n  boolean value or false.\n  \n  - parameter key:: The key to use to check the dictionary\n  - ",
+ }
+]

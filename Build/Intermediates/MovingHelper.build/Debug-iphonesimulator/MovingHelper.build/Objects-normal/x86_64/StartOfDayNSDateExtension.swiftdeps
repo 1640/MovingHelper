@@ -1,0 +1,125 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["CSo6NSDate", ""]
+- ["CSo6NSDate", "startOfDay"]
+- ["CSo6NSDate", "startOfToday"]
+provides-dynamic-lookup:
+- "startOfToday"
+- "startOfDay"
+depends-top-level:
+- "NSDate"
+- !private "NSCalendar"
+depends-member:
+- !private ["Ps9AnyObject", "NSCalendar"]
+- !private ["Ps9AnyObject", "NSDate"]
+- !private ["Ps9AnyObject", "currentCalendar"]
+- !private ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "startOfDay"]
+- !private ["Ps9AnyObject", "startOfDayForDate"]
+- ["Ps9AnyObject", "startOfToday"]
+- !private ["Ps11CVarArgType", "NSCalendar"]
+- !private ["Ps11CVarArgType", "NSDate"]
+- !private ["Ps11CVarArgType", "currentCalendar"]
+- !private ["Ps11CVarArgType", "init"]
+- ["Ps11CVarArgType", "startOfDay"]
+- !private ["Ps11CVarArgType", "startOfDayForDate"]
+- ["Ps11CVarArgType", "startOfToday"]
+- !private ["Ps28CustomDebugStringConvertible", "NSCalendar"]
+- !private ["Ps28CustomDebugStringConvertible", "NSDate"]
+- !private ["Ps28CustomDebugStringConvertible", "currentCalendar"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", "startOfDay"]
+- !private ["Ps28CustomDebugStringConvertible", "startOfDayForDate"]
+- ["Ps28CustomDebugStringConvertible", "startOfToday"]
+- !private ["Ps23CustomStringConvertible", "NSCalendar"]
+- !private ["Ps23CustomStringConvertible", "NSDate"]
+- !private ["Ps23CustomStringConvertible", "currentCalendar"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", "startOfDay"]
+- !private ["Ps23CustomStringConvertible", "startOfDayForDate"]
+- ["Ps23CustomStringConvertible", "startOfToday"]
+- !private ["Ps9Equatable", "NSCalendar"]
+- !private ["Ps9Equatable", "NSDate"]
+- !private ["Ps9Equatable", "currentCalendar"]
+- !private ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "startOfDay"]
+- !private ["Ps9Equatable", "startOfDayForDate"]
+- ["Ps9Equatable", "startOfToday"]
+- !private ["Ps8Hashable", "NSCalendar"]
+- !private ["Ps8Hashable", "NSDate"]
+- !private ["Ps8Hashable", "currentCalendar"]
+- !private ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "startOfDay"]
+- !private ["Ps8Hashable", "startOfDayForDate"]
+- ["Ps8Hashable", "startOfToday"]
+- !private ["CSo10NSCalendar", "currentCalendar"]
+- !private ["CSo10NSCalendar", "startOfDayForDate"]
+- !private ["PSo8NSCoding", "NSCalendar"]
+- !private ["PSo8NSCoding", "NSDate"]
+- !private ["PSo8NSCoding", "currentCalendar"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "startOfDay"]
+- !private ["PSo8NSCoding", "startOfDayForDate"]
+- !private ["PSo9NSCopying", "NSCalendar"]
+- !private ["PSo9NSCopying", "NSDate"]
+- !private ["PSo9NSCopying", "currentCalendar"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo9NSCopying", "startOfDay"]
+- !private ["PSo9NSCopying", "startOfDayForDate"]
+- !private ["CSo6NSDate", "NSCalendar"]
+- ["CSo6NSDate", "NSDate"]
+- !private ["CSo6NSDate", "init"]
+- ["CSo6NSDate", "startOfDay"]
+- ["CSo6NSDate", "startOfToday"]
+- !private ["CSo8NSObject", "NSCalendar"]
+- ["CSo8NSObject", "NSDate"]
+- !private ["CSo8NSObject", "currentCalendar"]
+- !private ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "startOfDay"]
+- !private ["CSo8NSObject", "startOfDayForDate"]
+- ["CSo8NSObject", "startOfToday"]
+- !private ["PSo16NSObjectProtocol", "NSCalendar"]
+- !private ["PSo16NSObjectProtocol", "NSDate"]
+- !private ["PSo16NSObjectProtocol", "currentCalendar"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "startOfDay"]
+- !private ["PSo16NSObjectProtocol", "startOfDayForDate"]
+- ["PSo16NSObjectProtocol", "startOfToday"]
+- !private ["PSo14NSSecureCoding", "NSCalendar"]
+- !private ["PSo14NSSecureCoding", "NSDate"]
+- !private ["PSo14NSSecureCoding", "currentCalendar"]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["PSo14NSSecureCoding", "startOfDay"]
+- !private ["PSo14NSSecureCoding", "startOfDayForDate"]
+- !private ["Ps12_Reflectable", "NSCalendar"]
+- !private ["Ps12_Reflectable", "NSDate"]
+- !private ["Ps12_Reflectable", "init"]
+- !private ["Ps12_Reflectable", "startOfDay"]
+depends-nominal:
+- "Ps9AnyObject"
+- "Ps11CVarArgType"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- "Ps8Hashable"
+- !private "CSo10NSCalendar"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- "CSo6NSDate"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "Ps12_Reflectable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+interface-hash: "478c169be3c41fd119dde97da99de50f"

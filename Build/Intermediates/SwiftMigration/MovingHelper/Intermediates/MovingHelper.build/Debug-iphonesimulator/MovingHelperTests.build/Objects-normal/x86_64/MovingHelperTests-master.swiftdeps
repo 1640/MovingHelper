@@ -1,0 +1,6 @@
+version: "Apple Swift version 2.2 (swiftlang-703.0.18.8 clang-703.0.31)"
+options: "94877e0373f1e2d68557a9693468fcd9"
+build_time: [517888792, 226682000]
+inputs:
+  "/Users/tanuj/Desktop/MovingHelper/MovingHelperTests/ExtensionTests.swift": [488845318, 0]
+  "/Users/tanuj/Desktop/MovingHelper/MovingHelperTests/TaskTests.swift": [488845318, 0]

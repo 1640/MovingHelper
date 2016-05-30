@@ -1,0 +1,8 @@
+[
+ {
+  "file": "/Users/tanuj/Desktop/MovingHelper/MovingHelper/Models/TaskDueDate.swift",
+  "offset": 2307,
+  "remove": 318,
+  "text": "[])!\n  }\n  \n  public func daysFromDueDate(moveDate: NSDate) -> String {\n    let taskDueDate = dueDateForMoveDate(moveDate)\n    \n    let components = NSCalendar.currentCalendar().components(NSCalendarUnit.Day,\n      fromDate: NSDate.startOfToday(),\n      toDate: taskDueDate,\n      options: []",
+ }
+]

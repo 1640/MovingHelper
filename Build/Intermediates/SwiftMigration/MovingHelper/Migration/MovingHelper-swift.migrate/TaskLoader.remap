@@ -1,0 +1,8 @@
+[
+ {
+  "file": "/Users/tanuj/Desktop/MovingHelper/MovingHelper/ModelControllers/TaskLoader.swift",
+  "offset": 500,
+  "remove": 620,
+  "text": "- returns: The stock moving tasks included with the app.\n  */\n  public static func loadStockTasks() -> [Task] {\n    if let path = NSBundle.mainBundle()\n      .pathForResource(FileName.StockTasks.rawValue, ofType: \"json\"),\n      data = NSData(contentsOfFile: path),\n      tasks = tasksFromData(data) {\n        return tasks\n    }\n    \n    //Fall through case\n    NSLog(\"Tasks did not load!\")\n    return [Task]()\n  }\n  \n  private static func tasksFromData(data: NSData) -> [Task]? {\n    let error = NSErrorPointer()\n    if let arrayOfTaskDictionaries = NSJSONSerialization.JSONObjectWithData(data, options: []",
+ }
+]

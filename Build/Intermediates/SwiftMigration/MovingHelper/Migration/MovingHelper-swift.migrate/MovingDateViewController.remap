@@ -1,0 +1,8 @@
+[
+ {
+  "file": "/Users/tanuj/Desktop/MovingHelper/MovingHelper/ViewControllers/MovingDateViewController.swift",
+  "offset": 1639,
+  "remove": 355,
+  "text": "[])\n    return updatedDate!\n  }\n  \n  //MARK: IBActions\n  \n  @IBAction func datePickerChanged() {\n    let updatedDate = whenMovingDatePicker.date.startOfDay()\n    let today = NSDate.startOfToday()\n    \n    let components = NSCalendar.currentCalendar().components(.Day,\n      fromDate: today,\n      toDate: updatedDate,\n      options: []",
+ }
+]

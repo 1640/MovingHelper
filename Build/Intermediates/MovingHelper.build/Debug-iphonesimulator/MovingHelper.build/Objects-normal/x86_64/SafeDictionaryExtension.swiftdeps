@@ -1,0 +1,150 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["CSo12NSDictionary", ""]
+- ["CSo12NSDictionary", "safeString"]
+- ["CSo12NSDictionary", "safeInt"]
+- ["CSo12NSDictionary", "safeBoolean"]
+provides-dynamic-lookup:
+- "safeBoolean"
+- "safeInt"
+- "safeString"
+depends-top-level:
+- !private "NSNumber"
+- "Int"
+- "NSDictionary"
+- !private "StringLiteralType"
+- !private "AnyObject"
+- "Bool"
+- "String"
+- !private "BooleanLiteralType"
+depends-member:
+- !private ["Ps9AnyObject", "boolValue"]
+- !private ["Ps9AnyObject", "integerValue"]
+- ["Ps9AnyObject", "safeBoolean"]
+- ["Ps9AnyObject", "safeInt"]
+- ["Ps9AnyObject", "safeString"]
+- !private ["Ps9AnyObject", "subscript"]
+- !private ["Ps25BooleanLiteralConvertible", "boolValue"]
+- !private ["Ps25BooleanLiteralConvertible", "integerValue"]
+- !private ["Ps11CVarArgType", "boolValue"]
+- !private ["Ps11CVarArgType", "integerValue"]
+- ["Ps11CVarArgType", "safeBoolean"]
+- ["Ps11CVarArgType", "safeInt"]
+- ["Ps11CVarArgType", "safeString"]
+- !private ["Ps11CVarArgType", "subscript"]
+- ["Ps28CustomDebugStringConvertible", "Some"]
+- !private ["Ps28CustomDebugStringConvertible", "boolValue"]
+- !private ["Ps28CustomDebugStringConvertible", "integerValue"]
+- ["Ps28CustomDebugStringConvertible", "safeBoolean"]
+- ["Ps28CustomDebugStringConvertible", "safeInt"]
+- ["Ps28CustomDebugStringConvertible", "safeString"]
+- !private ["Ps28CustomDebugStringConvertible", "subscript"]
+- !private ["Ps23CustomStringConvertible", "boolValue"]
+- !private ["Ps23CustomStringConvertible", "integerValue"]
+- ["Ps23CustomStringConvertible", "safeBoolean"]
+- ["Ps23CustomStringConvertible", "safeInt"]
+- ["Ps23CustomStringConvertible", "safeString"]
+- !private ["Ps23CustomStringConvertible", "subscript"]
+- !private ["Ps28DictionaryLiteralConvertible", "subscript"]
+- !private ["Ps9Equatable", "boolValue"]
+- !private ["Ps9Equatable", "integerValue"]
+- ["Ps9Equatable", "safeBoolean"]
+- ["Ps9Equatable", "safeInt"]
+- ["Ps9Equatable", "safeString"]
+- !private ["Ps9Equatable", "subscript"]
+- !private ["Ps23FloatLiteralConvertible", "boolValue"]
+- !private ["Ps23FloatLiteralConvertible", "integerValue"]
+- !private ["Ps8Hashable", "boolValue"]
+- !private ["Ps8Hashable", "integerValue"]
+- ["Ps8Hashable", "safeBoolean"]
+- ["Ps8Hashable", "safeInt"]
+- ["Ps8Hashable", "safeString"]
+- !private ["Ps8Hashable", "subscript"]
+- !private ["Ps25IntegerLiteralConvertible", "boolValue"]
+- !private ["Ps25IntegerLiteralConvertible", "integerValue"]
+- !private ["PSo8NSCoding", "boolValue"]
+- !private ["PSo8NSCoding", "integerValue"]
+- !private ["PSo8NSCoding", "subscript"]
+- !private ["PSo9NSCopying", "boolValue"]
+- !private ["PSo9NSCopying", "integerValue"]
+- !private ["PSo9NSCopying", "subscript"]
+- !private ["CSo12NSDictionary", "AnyObject"]
+- ["CSo12NSDictionary", "Bool"]
+- ["CSo12NSDictionary", "Int"]
+- !private ["CSo12NSDictionary", "NSNumber"]
+- ["CSo12NSDictionary", "String"]
+- ["CSo12NSDictionary", "safeBoolean"]
+- ["CSo12NSDictionary", "safeInt"]
+- ["CSo12NSDictionary", "safeString"]
+- !private ["CSo12NSDictionary", "subscript"]
+- !private ["PSo17NSFastEnumeration", "subscript"]
+- !private ["PSo16NSMutableCopying", "subscript"]
+- !private ["CSo8NSNumber", "boolValue"]
+- !private ["CSo8NSNumber", "integerValue"]
+- !private ["CSo8NSObject", "AnyObject"]
+- ["CSo8NSObject", "Bool"]
+- ["CSo8NSObject", "Int"]
+- !private ["CSo8NSObject", "NSNumber"]
+- ["CSo8NSObject", "String"]
+- !private ["CSo8NSObject", "boolValue"]
+- !private ["CSo8NSObject", "integerValue"]
+- ["CSo8NSObject", "safeBoolean"]
+- ["CSo8NSObject", "safeInt"]
+- ["CSo8NSObject", "safeString"]
+- !private ["CSo8NSObject", "subscript"]
+- !private ["PSo16NSObjectProtocol", "boolValue"]
+- !private ["PSo16NSObjectProtocol", "integerValue"]
+- ["PSo16NSObjectProtocol", "safeBoolean"]
+- ["PSo16NSObjectProtocol", "safeInt"]
+- ["PSo16NSObjectProtocol", "safeString"]
+- !private ["PSo16NSObjectProtocol", "subscript"]
+- !private ["PSo14NSSecureCoding", "boolValue"]
+- !private ["PSo14NSSecureCoding", "integerValue"]
+- !private ["PSo14NSSecureCoding", "subscript"]
+- !private ["CSo7NSValue", "boolValue"]
+- !private ["CSo7NSValue", "integerValue"]
+- ["Ps21NilLiteralConvertible", "Some"]
+- ["Sq", "Some"]
+- !private ["Ps12SequenceType", "subscript"]
+- !private ["SS", "deinit"]
+- ["Ps12_Reflectable", "Some"]
+- !private ["Ps12_Reflectable", "subscript"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "Ps25BooleanLiteralConvertible"
+- "Ps11CVarArgType"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- !private "Ps28DictionaryLiteralConvertible"
+- "Ps9Equatable"
+- !private "Ps23FloatLiteralConvertible"
+- "Ps8Hashable"
+- !private "Ps25IntegerLiteralConvertible"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- "CSo12NSDictionary"
+- !private "PSo17NSFastEnumeration"
+- !private "PSo16NSMutableCopying"
+- !private "CSo8NSNumber"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo7NSValue"
+- "Ps21NilLiteralConvertible"
+- "Sq"
+- !private "Ps12SequenceType"
+- !private "SS"
+- "Ps12_Reflectable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+interface-hash: "432d094c4dfba13a34d0609839ce005e"

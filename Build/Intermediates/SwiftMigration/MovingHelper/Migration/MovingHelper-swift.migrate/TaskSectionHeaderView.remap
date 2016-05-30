@@ -1,0 +1,8 @@
+[
+ {
+  "file": "/Users/tanuj/Desktop/MovingHelper/MovingHelper/Views/TaskSectionHeaderView.swift",
+  "offset": 884,
+  "remove": 72,
+  "text": "- parameter dueDate:  The due date for the current section\n  - parameter moveDate:",
+ }
+]

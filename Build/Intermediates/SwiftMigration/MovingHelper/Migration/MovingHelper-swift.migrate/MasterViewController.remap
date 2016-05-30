@@ -1,0 +1,8 @@
+[
+ {
+  "file": "/Users/tanuj/Desktop/MovingHelper/MovingHelper/ViewControllers/MasterViewController.swift",
+  "offset": 1385,
+  "remove": 688,
+  "text": " {\n          let task = taskForIndexPath(indexPath)\n          (segue.destinationViewController as! DetailViewController).detailTask = task\n        }\n        \n      case .ShowMovingDateVCSegue:\n        (segue.destinationViewController as! MovingDateViewController).delegate = self\n      default:\n        NSLog(\"Unhandled identifier \\(identifier)\")\n        //Do nothing.\n      }\n    }\n  }\n  \n  //MARK: Task Handling\n  \n  func addOrUpdateTask(task: Task) {\n    let index = task.dueDate.getIndex()\n    let dueDateTasks = sections[index]\n    \n    var tasksWithDifferentID = dueDateTasks.filter { $0.taskID != task.taskID }\n    tasksWithDifferentID.append(task)\n    tasksWithDifferentID.sortInPlace",
+ }
+]

@@ -1,0 +1,8 @@
+[
+ {
+  "file": "/Users/tanuj/Desktop/MovingHelper/MovingHelper/ModelControllers/TaskSaver.swift",
+  "offset": 531,
+  "remove": 734,
+  "text": "tasks.map {\n      task in\n      return task.asJson()\n    }\n    \n    var error: NSError?\n    let fullFilePath = fileName.jsonFileName().pathInDocumentsDirectory()\n    do {\n      let jsonData = try NSJSONSerialization.dataWithJSONObject(dictionaries,\n        options: .PrettyPrinted)\n        jsonData.writeToFile(fullFilePath, atomically: true)\n    } catch let error1 as NSError {\n      error = error1\n    }\n    \n    if let foundError = error {\n      NSLog(\"Error writing tasks to file: \\(foundError.localizedDescription)\")\n    }\n  }\n  \n  public static func nukeTaskFile(fileName: FileName) {\n    let fullFilePath = fileName.jsonFileName().pathInDocumentsDirectory()\n    var error: NSError?\n    \n    do {\n      try NSFileManager.defaultManager()\n        .removeItemAtPath(fullFilePath)\n    } catch let error1 as NSError {\n      error = error1\n    }",
+ }
+]
